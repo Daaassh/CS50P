@@ -1,9 +1,7 @@
-# Pegando os valores é convertendo eles para float
+def main():
+    x = int(input("Qual o valor do x: "))
+    print(f"O valor do x ao quadrado é de {power(x)}")
 
-x = float(input("Digite um numero: "))
-y = float(input("Digite outro numero: "))
-
-z = x / y
-# Imprimindo o valor na tela!
-
-print(f"O valor divido é de {z:.2f}")
+def power(x):
+    return pow(x, 2) 
+main()
